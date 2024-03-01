@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class JPA104 {
 
     public static void main(String[] args) {
-        System.out.print("輸入第1組的x和y座標:");
         Scanner scn = new Scanner(System.in);
         float x1,y1,x2,y2;
-        
+
+        System.out.print("輸入第1組的x和y座標:");
         x1 = scn.nextInt();
         y1 = scn.nextInt();
 
@@ -24,6 +24,5 @@ public class JPA104 {
         System.out.println();
         scn.close();
 
-    
     }
 }
