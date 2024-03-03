@@ -8,7 +8,7 @@ public class JPA105 {
         System.out.print("請輸入您的姓名:");
         String name = scn.nextLine();
         
-        System.out.println("Hi, " + name + ", 請輸入您的銅板的個數:);
+        System.out.println("Hi, " + name + ", 請輸入您的銅板的個數:");
         System.out.print("請輸入1元的數量:");
         int ones = scn.nextInt();
         total += ones;
