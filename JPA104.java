@@ -16,11 +16,7 @@ public class JPA104 {
 
         float distance = (float)Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
         
-        System.out.printf("介於(%.2f", x1);
-        System.out.printf(",%.2f", y1 );
-        System.out.printf(")和(%.2f", x2);
-        System.out.printf(",%.2f", y2);
-        System.out.printf(")之間的距離是%.2f", distance);
+        System.out.printf("介於(%.2f,%.2f)和(%.2f,%.2f)之間的距離是%.2f", x1, y1, x2, y2, distance);
         System.out.println();
         scn.close();
 
